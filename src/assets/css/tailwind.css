@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos customizados para o tema grego */
+@layer components {
+  .btn-greek {
+    @apply bg-gradient-to-r from-gold to-dark-gold text-white font-semibold py-3 px-6 uppercase tracking-wide transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+  
+  .card-greek {
+    @apply bg-white rounded-lg shadow-lg border border-gold/10 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl overflow-hidden;
+  }
+  
+  .text-gold-gradient {
+    @apply bg-gradient-to-r from-gold to-dark-gold bg-clip-text text-transparent;
+  }
+}
