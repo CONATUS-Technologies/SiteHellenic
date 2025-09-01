@@ -1,4 +1,3 @@
-
 {
   "name": "hellenic-ecommerce",
   "private": true,
@@ -13,6 +12,7 @@
     "vue": "^3.3.11"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
     "@vitejs/plugin-vue": "^4.5.2",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
